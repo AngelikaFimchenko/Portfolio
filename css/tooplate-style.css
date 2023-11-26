@@ -245,7 +245,11 @@ a:hover, a:active, a:focus {
   position: relative;
   text-align: right;
 }
-
+@media (max-width: 767px) {
+  #home {
+    background: url('../images/hom6e-bg.jpg') 50% 0 repeat-y fixed;
+  }
+}
 
 
 /*---------------------------------------
